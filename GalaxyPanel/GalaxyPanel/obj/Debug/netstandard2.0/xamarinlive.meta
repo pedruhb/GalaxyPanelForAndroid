@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\AlertaPage\AltertMenu.xaml</FilePath>
+      <Hash>C7-0F-07-71-D1-AF-E2-D1-DE-48-0A-F5-3D-27-9F-23</Hash>
+      <Properties>
+        <string>Title</string>
+        <string>NavigationPage.HasBackButton</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\AlertaPage\HotelAlert.xaml</FilePath>
+      <Hash>76-DC-1F-B8-94-56-EE-82-2D-6A-8A-60-5A-0D-B7-71</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\AlertaPage\StaffAlert.xaml</FilePath>
+      <Hash>BC-D6-03-1A-11-21-AB-50-A0-99-A1-A5-F2-49-7D-09</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\AlertaPage\UserAlert.xaml</FilePath>
+      <Hash>F1-5A-5E-B1-13-6D-5B-18-03-1C-EC-26-02-F1-DC-0B</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\App.xaml</FilePath>
+      <Hash>AC-09-8E-BF-CC-39-25-8B-8C-2F-99-A0-47-25-7D-89</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\InicioPage\Inicio.xaml</FilePath>
+      <Hash>C9-C7-56-5D-15-77-2F-99-8A-CD-6B-C0-9C-C3-39-03</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\InicioPage\Logs.xaml</FilePath>
+      <Hash>A0-0A-35-27-E5-A3-F8-51-2B-10-36-00-ED-57-A5-3D</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\InicioPage\Menu.xaml</FilePath>
+      <Hash>FE-65-D7-24-0D-4A-8A-90-D4-9B-19-A2-A5-9E-74-69</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\InicioPage\MenuSlider.xaml</FilePath>
+      <Hash>01-ED-E5-AB-50-07-76-EB-38-0E-3A-81-EA-3E-70-27</Hash>
+      <Properties>
+        <string>NavigationPage.HasBackButton</string>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\InicioPage\Suporte.xaml</FilePath>
+      <Hash>68-92-46-58-A6-A8-1B-F9-88-04-1A-B1-01-BC-FE-CF</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\Login.xaml</FilePath>
+      <Hash>CD-75-17-65-F3-98-0D-67-52-B5-7C-F3-1E-AA-0A-8B</Hash>
+      <Properties>
+        <string>Title</string>
+        <string>NavigationPage.HasBackButton</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\LogsPage\Chatlogs.xaml</FilePath>
+      <Hash>F2-28-12-3C-D3-D8-DF-60-45-97-8F-DF-8F-DC-50-E3</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\LogsPage\Consolelogs.xaml</FilePath>
+      <Hash>5C-AE-36-BE-84-17-CA-74-9E-2B-FF-45-FD-F8-A0-72</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\LogsPage\LogsMenu.xaml</FilePath>
+      <Hash>FC-ED-E6-19-A0-A7-3A-A5-33-B1-30-F4-B3-6A-2A-0D</Hash>
+      <Properties>
+        <string>Title</string>
+        <string>NavigationPage.HasBackButton</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\LogsPage\Stafflogs.xaml</FilePath>
+      <Hash>83-25-78-AD-C3-EF-EF-CA-C5-83-6B-39-3C-66-FB-71</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\UsuariosPage\DarRank.xaml</FilePath>
+      <Hash>D5-2F-BE-FF-52-F8-6A-00-51-93-7A-B3-7C-FC-5C-80</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\UsuariosPage\LoginStaff.xaml</FilePath>
+      <Hash>4F-85-CA-E4-08-67-4D-0D-6E-5B-9E-17-F1-12-84-85</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\UsuariosPage\Onlines.xaml</FilePath>
+      <Hash>0F-E8-73-9B-09-64-2F-6E-16-44-70-1B-5B-81-96-C6</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\UsuariosPage\QuartosCarregados.xaml</FilePath>
+      <Hash>65-3C-C2-E8-61-60-BC-E9-22-7C-4B-1D-5C-ED-D1-84</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\UsuariosPage\Registrados.xaml</FilePath>
+      <Hash>56-BF-0C-66-13-5B-BC-F7-39-A6-05-26-55-5E-3E-D6</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\UsuariosPage\StaffsOnline.xaml</FilePath>
+      <Hash>8B-C0-4F-01-AC-13-F4-22-74-07-18-84-22-6C-9F-E9</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\GalaxyPanelApp\GalaxyPanel\GalaxyPanel\GalaxyPanel\UsuariosPage\UserMenu.xaml</FilePath>
+      <Hash>35-1E-C0-B8-11-85-CF-BB-B3-43-22-91-1A-6A-51-65</Hash>
+      <Properties>
+        <string>Title</string>
+        <string>NavigationPage.HasBackButton</string>
+      </Properties>
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

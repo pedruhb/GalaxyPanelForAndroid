@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GalaxyPanel.UsuariosPage"
+             x:Class="GalaxyPanel.UsuariosPage.LoginStaff">
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Margin="20,0,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Entry x:Name="user" Grid.Row="1" Placeholder="Usuário" PlaceholderColor="#bababa" FontSize="16"/>
+            <Entry x:Name="pass" Grid.Row="2" Placeholder="Senha login staff" PlaceholderColor="#bababa" FontSize="16"/>
+            <Button Clicked="OnButtonPressed" x:Name="botao"  Text="Atualizar" BackgroundColor="#b815d6" TextColor="White" HeightRequest="50" 
+VerticalOptions="Start" Grid.Row="3" />
+        </Grid>
+        <ActivityIndicator x:Name="actInd"  IsRunning="true" IsVisible="false" Color="Red"/>
+    </Grid>
+</ContentPage>

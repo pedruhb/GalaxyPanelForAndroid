@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage   xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="GalaxyPanel.InicioPage.Menu"
+                    NavigationPage.HasNavigationBar="False">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" Padding="0">
+            <ContentPage.Content>
+                <StackLayout>
+                    <Grid HorizontalOptions="FillAndExpand"
+                          BackgroundColor="#9e11b8"
+                               VerticalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="30"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Source="avatar.jpg" HeightRequest="40" WidthRequest="40" 
+                               Grid.Column="1" 
+                               Grid.Row="1"
+                               HorizontalOptions="Start"
+                               VerticalOptions="Center"/>
+                        <StackLayout VerticalOptions="CenterAndExpand" Grid.Row="1" Margin="10,0,0,0"
+                               Grid.Column="2" Grid.ColumnSpan="3" Orientation="Vertical">
+                            <Label
+                                x:Name="HotelNameMenu"
+                               HorizontalTextAlignment="Start"
+                               VerticalTextAlignment="Center"
+                               TextColor="White"
+                               Text="Habbo Hotel"/>
+                            <Label 
+                                x:Name="AppInfo"
+                               HorizontalTextAlignment="Start"
+                               VerticalTextAlignment="Center"
+                               TextColor="White" Text=""/>
+                        </StackLayout>
+                    </Grid>
+                    
+                    <TableView Intent="Menu" >
+                        <TableSection>
+                            <ViewCell Tapped="Inicio">
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                             Orientation="Horizontal"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="home256"
+                                           WidthRequest="40"
+                                           HeightRequest="40"
+                                           VerticalOptions="Center" />
+                                    <Label Text="Início" 
+                                           VerticalTextAlignment="Center" 
+                                           FontSize="Medium"
+                                           VerticalOptions="Center"
+                                           TextColor="#9e11b8"/>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell Tapped="Logs">
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                             Orientation="Horizontal"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="log"
+                                           WidthRequest="40"
+                                           HeightRequest="40"
+                                           VerticalOptions="Center" />
+                                    <Label Text="Logs do Hotel" 
+                                           VerticalTextAlignment="Center" 
+                                           FontSize="Medium"
+                                           VerticalOptions="Center"
+                                           TextColor="#9e11b8"/>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell Tapped="Usuarios">
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                             Orientation="Horizontal"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="user"
+                                           WidthRequest="40"
+                                           HeightRequest="40"
+                                           VerticalOptions="Center" />
+                                    <Label Text="Gerenciar usuários" 
+                                           VerticalTextAlignment="Center" 
+                                           FontSize="Medium"
+                                           VerticalOptions="Center"
+                                           TextColor="#9e11b8"/>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell Tapped="Alerta">
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                             Orientation="Horizontal"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="alert"
+                                           WidthRequest="40"
+                                           HeightRequest="40"
+                                           VerticalOptions="Center" />
+                                    <Label Text="Enviar Alerta" 
+                                           VerticalTextAlignment="Center" 
+                                           FontSize="Medium"
+                                           VerticalOptions="Center"
+                                           TextColor="#9e11b8"/>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell Tapped="Compartilhar">
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                             Orientation="Horizontal"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="share"
+                                           WidthRequest="40"
+                                           HeightRequest="40"
+                                           VerticalOptions="Center" />
+                                    <Label Text="Compartilhar Hotel" 
+                                           VerticalTextAlignment="Center" 
+                                           FontSize="Medium"
+                                           VerticalOptions="Center"
+                                           TextColor="#9e11b8"/>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell Tapped="Sair">
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                             Orientation="Horizontal"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="sair"
+                                           WidthRequest="40"
+                                           HeightRequest="40"
+                                           VerticalOptions="Center" />
+                                    <Label Text="Sair do App" 
+                                           VerticalTextAlignment="Center" 
+                                           FontSize="Medium"
+                                           VerticalOptions="Center"
+                                           TextColor="#9e11b8"/>
+                                </StackLayout>
+                            </ViewCell>
+
+                        </TableSection>
+                    </TableView>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

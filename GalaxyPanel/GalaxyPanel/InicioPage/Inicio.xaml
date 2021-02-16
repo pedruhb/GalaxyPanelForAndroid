@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+   xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   mc:Ignorable="d"
+   x:Class="GalaxyPanel.InicioPage.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ListView
+            x:Name="ListviewInicio"
+            Margin="0,8,0,0"
+            HasUnevenRows="True"
+            SeparatorVisibility="None"
+            IsPullToRefreshEnabled="True"
+                 ItemTapped="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            
+                            <StackLayout Padding="8,8,8,8" Orientation="Vertical">
+                <StackLayout
+                 Padding="10"
+                 HorizontalOptions="Center"
+                 Spacing="10"
+                 BackgroundColor="white"
+                 VerticalOptions="Center">
+                    <Image Grid.Row="0"
+                          Grid.Column="0" HeightRequest="40" Source="{Binding Icone}" />
+                    <Grid>
+                        <Label
+                          Grid.Row="0"
+                          Grid.Column="0"
+                          Margin="15,0,0,0"
+                          FontSize="Medium"
+                          Text="{Binding Texto1}" />
+                        <Label
+                          Grid.Row="0"
+                          Grid.Column="1"
+                          Margin="0,0,15,0"
+                          FontSize="Medium"
+                          HorizontalTextAlignment="End"
+                          Text="{Binding Texto2}" />
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="botaoEmulador" Clicked="OnButtonEmuladorPressed" Text="Carregando..." BackgroundColor="#1561D6" TextColor="White" HeightRequest="50" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Margin="0,0,0,10"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+                                
